@@ -1,0 +1,38 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the nav element */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Styling the image in the nav */
+nav img {
+    width: 10%;
+}
+
+/* Styling the grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Styling images in the grid class */
+.grid img {
+    width: 100%;
+}
+
+/* Styling the flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
